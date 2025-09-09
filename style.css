@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Resume Heading */
+.resume-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+header a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+#darkModeToggle {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#darkModeToggle:hover {
+  background: #45a049;
+}
+
+/* Sections */
+section {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 900px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background: #121212;
+  color: #f4f4f4;
+}
+
+body.dark-mode header {
+  background: #111;
+}
+
+body.dark-mode section {
+  background: #1e1e1e;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+}
+
+body.dark-mode footer {
+  background: #111;
+}
